@@ -1,0 +1,16 @@
+{
+  "name": "rpgzim",
+  "version": "1.0.0",
+  "description": "RPG simples em TypeScript",
+  "main": "main.js",
+  "scripts": {
+    "start": "tsc main.ts && node main.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.1.3",
+    "ts-jest": "^29.4.3",
+    "typescript": "^5.0.0"
+  }
+}
