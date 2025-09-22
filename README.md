@@ -2,10 +2,17 @@
 
 ## Requisitos Funcionais
 
-- **Personagens:**  
-  - Guerreiro  
-  - Mago  
-  - Arqueiro  
+- **Personagens:**
+  ### Classes:  
+    - Guerreiro  
+    - Mago  
+    - Arqueiro
+
+  ### Detalhes:
+    - Toda as classes iniciam com 0 de mana, mago começa com 60
+    - Na criação a vida do personagem é 100
+    - Podem equipar armas de acordo com sua classe
+
 - **Atributos de cada personagem:**  
   - Nome  
   - Classe  
@@ -14,15 +21,5 @@
   - Arma equipada  
 
 - **Armas e Magias:**  
-  - Cada arma e magia possui restrições de uso por classe.
-
-- **Funções disponíveis:**  
-  - `eq`: Equipar armas  
-  - `atk`, `atk2`: Atacar outros personagens  
-  - `sp`: Usar magias  
-  - `heal`: Curar ou recuperar vida/mana  
-  - `aparecerMonstro`: Gerar monstros  
-  - `atacarMonstro`: Enfrentar monstros  
-
-- **Fluxo principal:**  
-  - A função `main` executa todas as ações em sequência e mostra o estado dos personagens no console.
+  - Cada arma e magia possui restrições de uso por classe
+  - Só pode ser equipado uma arma que exista

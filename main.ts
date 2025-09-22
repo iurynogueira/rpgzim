@@ -1,6 +1,6 @@
 let a: any = { n: "Conan", c: "Guerreiro", h: 100, m: 0, w: null };
-let b: any = { n: "Merlin", c: "Mago", h: 80, m: 100, w: null };
-let xx: any = { n: "Legolas", c: "Arqueiro", h: 90, m: 30, w: null };
+let b: any = { n: "Merlin", c: "Mago", h: 100, m: 100, w: null };
+let xx: any = { n: "Legolas", c: "Arqueiro", h: 100, m: 0, w: null };
 
 let ws: any = [
   { n: "espada", d: 10, a: ["Guerreiro", "Mago"] },
