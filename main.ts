@@ -2,12 +2,6 @@ let a: any = { n: "Conan", c: "Guerreiro", h: 100, m: 0, w: null };
 let b: any = { n: "Merlin", c: "Mago", h: 100, m: 100, w: null };
 let xx: any = { n: "Legolas", c: "Arqueiro", h: 100, m: 0, w: null };
 
-let ws: any = [
-  { n: "espada", d: 10, a: ["Guerreiro", "Mago"] },
-  { n: "lanca", d: 15, a: ["Guerreiro"] },
-  { n: "arco", d: 12, a: ["Arqueiro"] }
-];
-
 let ss: any = [
   { n: "fire", mc: 20, d: 25 },
   { n: "ice", mc: 15, d: 18 }
@@ -22,7 +16,13 @@ let monstros: any = [
 
 let monstroAtual: any = null;
 
-function eq(p: any, wn: string) {
+export function eq(p: any, wn: string) {
+  let ws: any = [
+    { n: "espada", d: 10, a: ["Guerreiro", "Mago"] },
+    { n: "lanca", d: 15, a: ["Guerreiro"] },
+    { n: "arco", d: 12, a: ["Arqueiro"] }
+  ];
+
   for (let i = 0; i < ws.length; i++) {
     if (ws[i].n === wn) {
       if (ws[i].a.indexOf(p.c) === -1) {
